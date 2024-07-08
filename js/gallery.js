@@ -74,11 +74,11 @@ const galleryItems = images
     <img
       class="gallery-image"
       src="${preview}"
-      data-source="${preview}"
-      alt="${preview}"
+      data-source="${original}"
+      alt="${description}"
     />
   </a>
-</li>;
+</li>
  `;
   })
   .join("");
